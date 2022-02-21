@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Josefin+Sans&family=Montserrat:wght@100&family=Righteous&family=Roboto+Condensed:wght@300&family=Sarala&family=Source+Code+Pro&family=Varela+Round&family=Yanone+Kaffeesatz&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    background: linear-gradient(50deg, whitesmoke 70%, orange 10%, rgba(235, 187, 45, 0.4) 20%);
+}
+
+.topo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    border-bottom: 0.3px solid #EBBB2D;
+}
+
+.topo-imagem{
+    height: 85px;
+    border-radius: 90px;
+}
+
+.topo-imagem:hover{
+    opacity: 0.7;
+}
+
+.topo-menu{
+    display: flex;
+    gap: 30px;
+}
+
+.topo-item{
+     font-family: 'Roboto Condensed', sans-serif;
+     font-weight: 600;
+     color: black;
+}
+.topo-item:hover{
+    color: #EBBB2D;
+}
+
+.conteudo {
+    border-top: 0.1px solid #6E6565;
+}
+
+.conteudo-principal {
+    display: inline-block;
+    justify-content: space-evenly;
+    margin-bottom: 25px;
+    padding-top: 20px;
+}
+
+.conteudo-escrito{ 
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.conteudo-principal-titulo{
+    font-weight: 700;
+    font-size: 35px;
+    font-family: Dosis;
+    margin-left: 130px;
+    padding-top: 20px;
+    color: #EBBB2D;
+}
+
+.conteudo-principal-subtitulo{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 29px; 
+    margin-left: 129px;
+  
+}
+
+.conteudo-principal-texto{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 650;
+    font-size: 15px;
+    margin-left: 129px;
+}
+
+.formulario{
+    padding: 20px;
+    width: 450px;
+    height: 350px;
+    margin-top: 20px;
+    margin-left: 450px;
+    margin-bottom: 5px;
+    background-color:rgba(235, 187, 45, 0.4);
+    border-width: 11px;
+    border-color: #EBBB2D;
+    border-style: solid; 
+    background-clip: padding-box;
+    
+}
+
+.formulario-titulo{
+    font-family: Dosis;
+    font-size: 30px;
+    font-weight: 650;
+}    
+
+.formulario-subtitulo{
+    font-family: Dosis;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.formulario-inputs{
+    margin-top: 8px;
+}
+
+.formulario-inputs span{
+    display: inline-block;
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+.formulario-inputs span[type=text]{
+    margin-top: 8px;
+    width: 350px;
+    height: 50px;
+    padding: 10px 15px 10px 15px;
+    border: 1px solid;
+}
+
+.formulario-inputs span[type=number]{
+    margin-top: 8px;
+    width: 350px;
+    height: 50px;
+    padding: 10px 15px 10px 15px;
+    border: 1px solid;
+}
+
+
+
+
+.formulario  input[type=text]{
+    outline: 0;
+}
+
+.input {
+    display: block;
+    margin: 0 0 0 10px;
+    padding: 5px 50px;
+    
+}
+
+.formulario-botao{
+  text-align: center;
+}
+
+.formulario input[type=submit]{
+    font-size: 25px;
+    font-weight: 900;
+    width: 230px;
+    height: 40px;
+    display: inline-block;
+    margin-top: 18px;
+    background-color: rgba(235, 187, 45, 0.4);
+    border-top: 2px solid #EBBB2D;
+    border-right: 2px solid #EBBB2D;
+    border-left: 2px solid #EBBB2D;
+    cursor: pointer;
+    border-bottom: 2px solid #EBBB2D;
+    font-family: Dosis; 
+}
+
+.formulario input[type=submit]:hover{
+    background-color: orange;
+}
+
+.conteudo-secundario{
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+    
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    
+}
+
+.conteudo-secundario img{
+    height: 250px;
+    width: 250px;
+    border-radius: 128px;
+    box-shadow: 6px 9px 5px#EBBB2D;
+}
+
+.conteudo-secundario-lista{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+     
+
+.conteudo-secundario-lista h2{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        font-family: Dosis;
+        color: #EBBB2D;
+        font-size: 45px;      
+}
+
+.conteudo-secundario-lista ul {
+    padding: 30px;
+    margin-left: 10px;
+    
+    font-family: Dosis;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.conteudo-secundario-lista li{
+   list-style: none;
+}
+
+.conteudo-secundario-lista li:before{
+    content: '✓';
+}
+
+
+.rodape {
+    text-align: center;
+    
+}
+
+.rodape-texto{
+    font-size: 50px;
+    font-weight: 200;
+    border-top: 0.2px solid #EBBB2D ;
+    background-color:rgba(235, 187, 45, 0.4);
+    font-family:'Roboto Condensed', sans-serif;
+    color: orangered;
+
+
+}
